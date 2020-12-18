@@ -1,0 +1,19 @@
+This is a README to tell you how the program works.
+
+Firstly, the program will prompt you for valid service type(hotel or experience), if you choose invalid input, you will be asked for selecting again.
+
+--> If hotel service is choosen, then, you can input <1> search word(city, such as NY/ Los Angeles, etc.)
+                                                     <2> check in date
+                                                     <3> check out date
+                                                     <4> number of adults
+
+Then, it will return you with the information of around 20 hotels.
+A plot will be shown by brower, using rating/price per night of different hotels
+If the information is not in cache, it will be stored into cache and database. 
+
+--> If experience is chosen, then, you can input <1> search word(such as San Diego, etc.)
+                                                 <2> check in date
+                                                 <3> check out date     
+
+Then, it will return you with the information of around 20 recommended experience.
+If the information is not in cache, it will be stored into cache and database. 
