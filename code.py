@@ -315,7 +315,7 @@ if __name__ == "__main__":
 
                     [title,detailed_url] = exp_dict.get(str(i))
                     print("--------------------------------------------------------------")
-                    print("[%d]\n|title:%s\n|experiment_url:%s" %(i+1,title,"https://www.airbnb.com"+str(detailed_url)))
+                    print("[%d]\n|title:%s\n|experience_url:%s" %(i+1,title,"https://www.airbnb.com"+str(detailed_url)))
                     print("--------------------------------------------------------------")
                 exit()
         else:
