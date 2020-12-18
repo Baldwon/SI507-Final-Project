@@ -132,7 +132,7 @@ def search_hotel_item(search_word,checkin,checkout,adult):
             size = info[i].find(class_='_kqh46o',style="margin-top:9px")
             size = re.findall(r">(.+?)<",str(size))
             size = ''.join(size).replace(' · ',',')
-
+            
             # amenties
             amenities = info[i].find(class_='_kqh46o',style="margin-top:4px")
             amenities = re.findall(r">(.+?)<",str(amenities))
